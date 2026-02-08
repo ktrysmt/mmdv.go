@@ -17,13 +17,10 @@ var pattern = "(?s)```mermaid(.*?)```"
 var mermaidBlockRe = regexp.MustCompile(pattern)
 
 func convertMermaid(mermaidSrc string) string {
-	// Use mermaid-ascii as a library
 	asciiArt, err := cmd.Convert(mermaidSrc)
 	if err == nil && asciiArt != "" {
 		return strings.TrimSuffix(asciiArt, "\n")
 	}
-
-	// Fallback: return original as-is in a code block
 	return strings.TrimSuffix(mermaidSrc, "\n")
 }
 
