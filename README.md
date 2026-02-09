@@ -1,4 +1,4 @@
-Not recommended. Try this instead → <https://github.com/ktrysmt/mema>
+Not recommended. Try this instead → <https://github.com/ktrysmt/termaid>
 
 ---
 
