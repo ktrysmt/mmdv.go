@@ -1,3 +1,7 @@
+Not recommended. Try this instead → <https://github.com/ktrysmt/mema>
+
+---
+
 # mmdv
 
 ```sh
